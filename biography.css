@@ -1,0 +1,80 @@
+body{
+    background-image: url(xiao.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    overflow: auto;
+}
+header{
+    background: #427973;
+    color: white;
+    height: 95px;
+    width: 1000px;
+    margin: auto auto;
+    padding: 5px;
+}
+header h2{
+    text-align: center;
+    padding-top: 15px;
+}
+nav{
+    background: #35424c;
+    width: 1000px;
+    color: white;
+    height: 45px;
+    margin: auto auto;
+}
+nav li{
+    background: #73beb0;
+    display: inline;
+    padding: 8px;
+    margin: 5px;
+    font-size: 20px;
+    border: 2px solid #4a5969;
+}
+nav li:hover{
+    background: #4a5969;
+    color: black;
+}
+.content{
+    background-image: linear-gradient(rgba(75, 75, 75, 0.7),rgba(75, 75, 75, 0.7));
+    width: 940px;
+    padding: 30px;
+    margin: auto auto;
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.content2{
+    background-image: linear-gradient(rgba(75, 75, 75, 0.7),rgba(75, 75, 75, 0.7));
+    width: 940px;
+    margin: auto auto;
+    padding: 30px;
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+}
+nav li a:hover{
+    color: black;
+}
+footer{
+    text-align: center;
+    background: #35424c;
+    padding: 10px;
+    width: 980px;
+    margin: auto auto;
+}
+.content img{
+    max-width: 300px;
+}
+.content p{
+    text-align: justify;
+    font-size: 22px;
+    color: white;
+    padding: 60px;
+}
+.content2 h3{
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}

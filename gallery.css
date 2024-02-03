@@ -1,0 +1,78 @@
+body{
+    background-image: url(shogun.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    overflow: auto;
+}
+header{
+    background: #2a2263;
+    color: white;
+    height: 95px;
+    width: 1000px;
+    margin: auto auto;
+    padding: 5px;
+}
+header h2{
+    text-align: center;
+    padding-top: 15px;
+}
+nav{
+    background: #6333ae;
+    width: 1000px;
+    color: white;
+    height: 45px;
+    margin: auto auto;
+}
+nav li{
+    background: #aa7eee;
+    display: inline;
+    padding: 8px;
+    margin: 5px;
+    font-size: 20px;
+    border: 2px solid #4440c0;
+}
+nav li:hover{
+    background: #4440c0;
+    color: black;
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+}
+nav li a:hover{
+    color: black;
+}
+footer{
+    text-align: center;
+    background: #6333a1;
+    padding: 10px;
+    width: 980px;
+    margin: auto auto;
+}
+.content{
+    background-image: linear-gradient(rgba(75, 75, 75, 0.7),rgba(75, 75, 75, 0.7));
+    width: 940px;
+    padding: 30px;
+    margin: auto auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: space-evenly;
+}
+.gallery{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    background: #aa7eee;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+.gallery img{
+    max-width: 300px;
+}

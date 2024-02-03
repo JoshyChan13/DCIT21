@@ -1,0 +1,67 @@
+body{
+    background-image: url(nahida.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    overflow: auto;
+}
+header{
+    background: #7fb591;
+    color: white;
+    height: 95px;
+    width: 1000px;
+    margin: auto auto;
+    padding: 5px;
+}
+header h2{
+    text-align: center;
+    padding-top: 15px;
+}
+nav{
+    background: #ede8ec;
+    width: 1000px;
+    color: black;
+    height: 45px;
+    margin: auto auto;
+}
+nav li{
+    background: #e6f8b7;
+    display: inline;
+    padding: 8px;
+    margin: 5px;
+    font-size: 20px;
+    border: 2px solid #bacd84;
+}
+nav li:hover{
+    background: #bacd84;
+    color: black;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+nav li a:hover{
+    color: black;
+}
+footer{
+    text-align: center;
+    background: #ede8ec;
+    padding: 10px;
+    width: 980px;
+    margin: auto auto;
+}
+.content{
+    background-image: linear-gradient(rgba(75, 75, 75, 0.7),rgba(75, 75, 75, 0.7));
+    width: 940px;
+    padding: 30px;
+    margin: auto auto;
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.content h3{
+    text-align: justify;
+    font-size: 22px;
+    color: white;
+    padding: 50px;
+}
